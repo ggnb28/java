@@ -1,0 +1,8 @@
+package chap07interf;
+
+public interface Phone {
+	void call(String phoneNumber);
+	void receive();
+	
+
+}

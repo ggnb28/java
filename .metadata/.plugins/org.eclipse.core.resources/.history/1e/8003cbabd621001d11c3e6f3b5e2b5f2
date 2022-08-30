@@ -1,0 +1,19 @@
+package chapp_06_01_b;
+
+public class Gugudan {
+	private int col = 9;
+	private int row = 9;
+	int dan;
+	
+	// 지정한 단만 출력
+	public void printOne(int dan) {
+		for(int i = 1; i <= col; i++) {
+			System.out.println(dan + "X" + i + "=" + dan*i);
+		}
+	}
+	
+	// 2~9 단을 출력
+	public void printAll() {
+		
+	}
+}

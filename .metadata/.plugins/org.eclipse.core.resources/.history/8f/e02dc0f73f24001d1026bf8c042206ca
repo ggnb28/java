@@ -1,0 +1,18 @@
+package chap11api;
+
+public class CarExample {
+	public static void main(String[] args) {
+		Class clazz = Car.class;
+		System.out.println(clazz.getPackageName() + "." + clazz.getName());
+		
+		Class clazz1 = null;
+		try {
+			clazz1 = Class.forName("chap11api.Car");
+		} catch(ClassNotFoundException e) {
+			e.printStackTrace();
+		}	
+		System.out.println(clazz1.getPackageName());	
+	}
+	
+
+}

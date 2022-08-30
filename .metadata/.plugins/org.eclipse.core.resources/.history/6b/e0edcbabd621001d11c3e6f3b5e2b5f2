@@ -1,0 +1,12 @@
+package chap_06_01;
+
+public class p211_test_Calex {
+	public static void main(String[] args) {
+		// 기본 생성자(매개변수가 없는)를 호출하여 객체를 생성
+		NewCal calculator = new NewCal();
+		System.out.println(calculator.calc());
+		calculator = new NewCal(23,"*",40);
+		System.out.println(calculator.calc());
+	}
+
+}

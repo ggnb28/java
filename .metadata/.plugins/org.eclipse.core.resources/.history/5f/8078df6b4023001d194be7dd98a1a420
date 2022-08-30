@@ -1,0 +1,21 @@
+package chapp_06_01_b;
+
+
+import chap_06_01.NewCal;
+
+public class GugudanExample {
+	public static void main(String[] args) {
+		Gugudan gugudan = new Gugudan();
+//		gugudan.printOne(3);
+		gugudan.printAll();
+//		gugudan.printFrom(7);
+		NewCal nc = new NewCal();
+;		
+		
+		SubGugudan subRef = new SubGugudan();
+		subRef.printFrom(5);
+		subRef.printFrom(5, "down");
+		
+
+	}
+}

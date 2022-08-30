@@ -1,0 +1,5 @@
+package chap07interf;
+
+public interface SmartPhoneExample {
+
+}

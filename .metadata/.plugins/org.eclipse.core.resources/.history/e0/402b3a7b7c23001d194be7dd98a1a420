@@ -1,0 +1,9 @@
+package chap07interf;
+
+public interface Phone {
+	String phoneNumber = "010-4567-1234";
+	void call(String phoneNumber);
+	void receive();
+	
+
+}

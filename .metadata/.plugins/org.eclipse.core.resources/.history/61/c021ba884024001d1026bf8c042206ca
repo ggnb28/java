@@ -1,0 +1,30 @@
+package chap11api;
+
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
+import java.util.Date;
+
+public class CarExample {
+	public static void main(String[] args) {
+		
+		Calendar rightnow = Calendar.getInstance();
+		Date date = new Date();
+		SimpleDateFormat sdf = new SimpleDateFormat("yy³â MM¿ù ddÀÏ hh:mm:ss");
+		System.out.println(sdf.format(date));
+//		System.out.println(rightnow.YEAR)
+//		System.out.println(rightnow.getFirstDayOfWeek());
+		
+		Class clazz = Car.class;
+		System.out.println(clazz.getPackageName() + "." + clazz.getName());
+		
+		Class clazz1 = null;
+		try {
+			clazz1 = Class.forName("chap11api.Car");
+		} catch(ClassNotFoundException e) {
+			e.printStackTrace();
+		}	
+		System.out.println(clazz1.getPackageName());	
+	}
+	
+
+}

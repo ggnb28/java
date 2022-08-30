@@ -1,0 +1,57 @@
+package akinator;
+
+public class Akinator implements ScoreCal {
+	int gender;
+	int age;
+	int position;
+	int name;
+	int glasses;
+	int score;
+	
+public	Akinator() {};
+
+public int getGender() {
+	return gender;
+}
+
+public void setGender(int gender) {
+	this.gender = gender;
+}
+
+public int getAge() {
+	return age;
+}
+
+public void setAge(int age) {
+	this.age = age;
+}
+
+public int getPosition() {
+	return position;
+}
+
+public void setPosition(int position) {
+	this.position = position;
+}
+
+public int getName() {
+	return name;
+}
+
+public void setName(int name) {
+	this.name = name;
+}
+
+public int getGlasses() {
+	return glasses;
+}
+
+public void setGlasses(int glasses) {
+	this.glasses = glasses;
+}
+
+	
+	
+	
+
+}

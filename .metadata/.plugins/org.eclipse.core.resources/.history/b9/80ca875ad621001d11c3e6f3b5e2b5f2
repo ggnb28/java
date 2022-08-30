@@ -1,0 +1,9 @@
+package chapp_06_01_b;
+
+public class ex_99t {
+	public static void main(String[] args) {
+		ex_99 gugudan = new ex_99();
+		gugudan.printOne(3);
+
+}
+}

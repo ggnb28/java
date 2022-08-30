@@ -1,0 +1,10 @@
+package iducs.java.pim.service;
+
+public class MembrFileReader<T> {
+	Scanner sc = null;
+	public MemberFileReader(File f) throws FileNotFoundException{
+		sc = new Scanner(f); // 파일로부터 입력
+		// new Scanner(System.in) : 키보드로부터 입력
+	}
+
+}

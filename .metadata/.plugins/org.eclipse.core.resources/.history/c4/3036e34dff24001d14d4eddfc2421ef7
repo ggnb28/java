@@ -1,0 +1,5 @@
+package iducs.java.pim.service;
+
+public class MembrFileReader<T> {
+
+}

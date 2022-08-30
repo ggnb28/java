@@ -1,0 +1,10 @@
+package chap07a;
+
+public class Akinator {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

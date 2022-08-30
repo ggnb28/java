@@ -1,0 +1,9 @@
+package chap07interf;
+
+public interface Messanger {
+	void sendMessange(String phoneNumber, String msg);
+	void receiveMsg();
+	
+	
+
+}

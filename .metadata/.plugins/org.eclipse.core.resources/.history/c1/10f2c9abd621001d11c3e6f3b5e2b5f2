@@ -1,0 +1,35 @@
+package chap_06_01;
+
+public class NewCal {
+	
+	private int operand1;
+	private int operand2;
+	private String operator;
+	
+	// constructor : 객체 초기화
+	public NewCal() {// 기번(default) 생성자
+		this.operand1 = 10;
+		this.operator = "+";
+		this.operand2 = 20;
+	}
+	public NewCal(int o1, String op, int o2) {
+		this.operand1 = o1;
+		this.operator = op;
+		this.operand2 = o2;
+	}
+	
+	public int calc() {
+		int result = 0;
+		if(operator.equals("+"))
+			result = operand1 + operand2;
+		else if(operator.equals("-"))
+			result = operand1 - operand2;
+		else if(operator.equals("*"))
+			result = operand1 * operand2;
+		else if(operator.equals("/"))
+			result = operand1 / operand2;
+		
+		return result;
+	}
+
+}

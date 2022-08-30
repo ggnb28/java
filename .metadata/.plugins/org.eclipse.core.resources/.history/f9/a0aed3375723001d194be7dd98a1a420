@@ -1,0 +1,28 @@
+package chap07a;
+
+public class PolygonExample {
+
+	public static void main(String[] args) {
+		// Polygon 형의 poly라는 참조변수를 사용
+		// Triangle, Square, Trapezoid .. 상속받음, 공통적인 특징을 가짐
+		Polygon poly = new Triangle(50, 80);
+		System.out.println("넓이는 : " + poly.evaluate());
+		Polygon poly = new Square(50, 80);
+		System.out.println("넓이는 : " + poly.evaluate());
+		Polygon poly = new Trapezoid(50, 80);
+		System.out.println("넓이는 : " + poly.evaluate());
+		
+		Triangle triangle = new Triangle(50, 80);
+		System.out.println("넓이는 : " + triangle.evaluate());
+		
+		Square square = new Square(80, 80);
+	    System.out.println("넓이는 : " + square.evaluate());
+//	    SquareB squareB = new SquareB(80);
+//	    System.out.println("넓이는 : " + squareB.evaluate());
+	    
+	    Trapezoid trapezoid = new Trapezoid(50, 80, 60);
+	    System.out.println("넓이는 : " + trapezoid.evaluate());
+				
+	}
+
+}

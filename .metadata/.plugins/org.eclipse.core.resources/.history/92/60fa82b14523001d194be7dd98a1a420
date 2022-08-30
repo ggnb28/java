@@ -1,0 +1,11 @@
+package chap07a;
+
+public class Triangle extends Polygon {
+
+	@Override
+	public int evaluate() {
+		super.area = super.width* super.height /2 ;
+		return super.area;
+	}
+
+}

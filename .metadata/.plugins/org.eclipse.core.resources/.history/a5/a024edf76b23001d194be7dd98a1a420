@@ -1,0 +1,14 @@
+package chap07a;
+
+public class Rectangle extends Polygon {
+	public Rectangle(int height, int width) {
+		super(height, width);
+	}
+
+	@Override
+	
+	public int evaluate() {
+		return (getHeight() * getWidth());
+	}
+
+}

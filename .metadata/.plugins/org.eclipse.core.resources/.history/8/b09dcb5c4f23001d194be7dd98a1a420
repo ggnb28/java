@@ -1,0 +1,11 @@
+package chap07a;
+
+public class PolygonExample {
+
+	public static void main(String[] args) {
+		Triangle triangle = new Triangle(50, 80);
+		System.out.println("³ÐÀÌ´Â : " + triangle.evaluate());
+
+	}
+
+}
